@@ -17,7 +17,7 @@ const Header = () => {
               We are team of talented developers making websites
             </p>
             <p className="Header-p">and mobile applications</p>
-            <Button variant="contained">Contained</Button>
+            <Button variant="contained">Get Started</Button>
           </div>
           <div className="col Header-col2">
             <Image className="pimg" src={Person} />

@@ -1,0 +1,23 @@
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.scontainer {
+    height: 400px;
+}
+
+.srow {
+    height: 100%;
+}
+
+.scol {
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}

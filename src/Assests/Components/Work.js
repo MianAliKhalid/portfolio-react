@@ -1,36 +1,27 @@
-import React from 'react'
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../Css/Work.css'
-import work from '../Json/work.json'
-import Workcard from './Workcard';
+import "../Css/Work.css";
+import work from "../Json/work.json";
+import Workcard from "./Workcard";
 
 const Work = () => {
   return (
     <div>
-    <h1 className='workHeading' >Latest Work</h1>
-        <div className="container workcontainer">
-            <div className="row workrow">
+      <h1 className="workHeading">Latest Work</h1>
+      <div className="container workcontainer">
+        <div className="row workrow">
+          {work.map((element, index) => {
+            return (
+              <Workcard
+                key={index}
+                img={element.src}
+                title={element.title}
+                description={element.description}
+              />
+            );
+          })}
 
-            {
-            work.map((element,index)=>{
-                return(
-                    <Workcard
-                    key={index}
-                    img={element.src}
-                    title={element.title}
-                    description={element.description}
-                    />
-                )
-            
-            })
-            }
-
-
-
-
-
-
-                {/* <div className="col-4">
+          {/* <div className="col-4">
                     <div className="card workcard">
                         <Image className="card-img-top img-size" src="https://img.freepik.com/free-vector/new-app-development-desktop_23-2148684987.jpg?t=st=1719428364~exp=1719431964~hmac=0acfb7086d9caca4ba7274767735c96240e954bb0710783e33ab917e429c5a9c&w=1380" />
                         <div className="card-body">
@@ -90,20 +81,10 @@ const Work = () => {
                         </div>
                     </div>
                 </div> */}
-
-
-                
-
-            </div>
-
-
-
-            
-
         </div>
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;

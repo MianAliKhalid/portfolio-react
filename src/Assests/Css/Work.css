@@ -1,24 +1,28 @@
-.workcontainer{
+.workcontainer {
     margin-top: 30px;
-    height: 850px;
+    height: 700px;
 }
-.workHeading{
+
+.workHeading {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
-.workcontainer{
+
+.workcontainer {
     max-height: 100%;
 }
-.img-size{
+
+.img-size {
     width: 50%;
     height: 50%;
     align-self: center;
 }
-.workrow{
+
+.workrow {
     padding: 10px;
 }
 
-.workcard{
+.workcard {
     margin-top: 30px;
 }
