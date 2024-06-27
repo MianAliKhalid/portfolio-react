@@ -1,0 +1,25 @@
+.Header{
+    margin-top: 10px;
+    height: 600px;
+    
+}
+.Header-col2{
+    padding-top: 20px;
+    height: 600px;
+}
+.pimg{
+    padding-top: 10%;
+    border-radius: 45% 45% 0 0;
+}
+.Header-col{
+    padding-top: 90px;
+}
+.Header-col h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:black;
+}
+.Header-col p{
+    font-size: 20px;
+    color:black;
+}
