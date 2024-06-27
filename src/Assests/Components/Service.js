@@ -9,8 +9,7 @@ const Service = () => {
     <div>
       <h1>Service</h1>
       <p>
-        We are team of talented developers making websites and mobile
-        applications
+        We are team of talented developers making websites, mobile applications and expert in Data Science
       </p>
       <div className="container scontainer">
         <div className="row  srow justify-content-between align-items-strech">
