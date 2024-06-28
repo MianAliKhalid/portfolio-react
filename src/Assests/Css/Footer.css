@@ -1,0 +1,26 @@
+.fcontainer{
+    height: 350px;
+    margin-top: 300px;
+    background-color: black;
+}
+.frow{
+    height: 300px;
+
+}
+.ful {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    text-align:start;
+    
+}
+p{
+    font-size: 12px;
+}
+
+.fh1{
+    color:#1565C0;
+    text-align: left;
+}
