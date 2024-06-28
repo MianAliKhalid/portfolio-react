@@ -1,4 +1,4 @@
-# Project Name
+# React Portfolio
 
 Brief description of what this project does and who it's for.
 
